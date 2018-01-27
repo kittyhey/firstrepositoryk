@@ -28,7 +28,7 @@ public class StepDefinition {
 	public void results_page_with_is_displayed(String title1) throws Throwable {
 	    Assert.assertTrue(driver.getTitle().equalsIgnoreCase(title1));
 	    driver.close();
-	    //for the commit
+	    //for the commit pls have this
 	}
 
 
